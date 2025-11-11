@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cmtqkblwe3n1s"]
+
+[ext_resource type="Texture2D" uid="uid://b32e8rcagayxo" path="res://sprites/UnknownPath.png" id="1_vkqa2"]
+
+[node name="PathButton" type="Node2D"]
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="."]
+texture_normal = ExtResource("1_vkqa2")
+texture_pressed = ExtResource("1_vkqa2")
+passby_press = true
