@@ -202,6 +202,6 @@ position = Vector2(420, 490)
 position = Vector2(490, 490)
 
 [node name="EndDraggingTimer" type="Timer" parent="."]
-wait_time = 0.2
+wait_time = 0.6
 
 [connection signal="timeout" from="EndDraggingTimer" to="." method="_on_end_dragging_timer_timeout"]

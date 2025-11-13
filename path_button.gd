@@ -2,6 +2,8 @@ class_name PathButton
 extends Node2D
 
 static var empty_path_texture = load("res://sprites/EmptyPath.png")
+static var monster_texture = load("res://sprites/Monster.png")
+static var treasure_texture = load("res://sprites/Treasure.png")
 static var unknown_path_texture = load("res://sprites/UnknownPath.png")
 static var wall_texture = load("res://sprites/Wall.png")
 
@@ -15,12 +17,23 @@ var state: PathState.State:
 		match value:
 			PathState.State.EMPTY:
 				$TouchScreenButton.texture_normal = empty_path_texture
+				$TouchScreenButton.texture_pressed = empty_path_texture
+				
+			PathState.State.MONSTER:
+				$TouchScreenButton.texture_normal = monster_texture
+				$TouchScreenButton.texture_pressed = monster_texture
+				
+			PathState.State.TREASURE:
+				$TouchScreenButton.texture_normal = treasure_texture
+				$TouchScreenButton.texture_pressed = treasure_texture
 				
 			PathState.State.UNKNOWN:
 				$TouchScreenButton.texture_normal = unknown_path_texture
+				$TouchScreenButton.texture_pressed = unknown_path_texture
 				
 			PathState.State.WALL:
 				$TouchScreenButton.texture_normal = wall_texture
+				$TouchScreenButton.texture_pressed = wall_texture
 
 
 # Called when the node enters the scene tree for the first time.

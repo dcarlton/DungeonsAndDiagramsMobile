@@ -1,2 +1,2 @@
 class_name PathState
-enum State {UNKNOWN, WALL, EMPTY, NULL}
+enum State {EMPTY, MONSTER, TREASURE, UNKNOWN, WALL, NULL}
