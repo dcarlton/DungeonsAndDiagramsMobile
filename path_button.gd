@@ -9,6 +9,7 @@ static var wall_texture = load("res://sprites/Wall.png")
 
 signal pressed
 signal released
+var recently_tapped = false
 var state: PathState.State:
 	get:
 		return state
@@ -50,8 +51,16 @@ func _input(event: InputEvent) -> void:
 	event
 
 func _on_touch_screen_button_pressed() -> void:
-	pressed.emit(state, func(new_state: PathState.State): state = new_state)
+	pressed.emit(state, func(new_state: PathState.State): state = new_state, recently_tapped)
+	recently_tapped = false
+	$DoubleTapTimer.stop()
 
 
 func _on_touch_screen_button_released() -> void:
 	released.emit()
+	recently_tapped = true
+	$DoubleTapTimer.start()
+
+
+func _on_double_tap_timer_timeout() -> void:
+	recently_tapped = false

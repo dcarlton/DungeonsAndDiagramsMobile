@@ -11,5 +11,8 @@ texture_normal = ExtResource("1_vkqa2")
 texture_pressed = ExtResource("1_vkqa2")
 passby_press = true
 
+[node name="DoubleTapTimer" type="Timer" parent="."]
+
 [connection signal="pressed" from="TouchScreenButton" to="." method="_on_touch_screen_button_pressed"]
 [connection signal="released" from="TouchScreenButton" to="." method="_on_touch_screen_button_released"]
+[connection signal="timeout" from="DoubleTapTimer" to="." method="_on_double_tap_timer_timeout"]

@@ -13,193 +13,193 @@ pathButton = ExtResource("2_qu0b2")
 [node name="PathButton" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
 
 [node name="PathButton2" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(70, 0)
+position = Vector2(65, 0)
 
 [node name="PathButton3" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(140, 0)
+position = Vector2(130, 0)
 
 [node name="PathButton4" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(210, 0)
+position = Vector2(195, 0)
 
 [node name="PathButton5" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(280, 0)
+position = Vector2(260, 0)
 
 [node name="PathButton6" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(350, 0)
+position = Vector2(325, 0)
 
 [node name="PathButton7" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(420, 0)
+position = Vector2(390, 0)
 
 [node name="PathButton8" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(490, 0)
+position = Vector2(455, 0)
 
 [node name="PathButton9" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(0, 70)
+position = Vector2(0, 65)
 
 [node name="PathButton10" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(70, 70)
+position = Vector2(65, 65)
 
 [node name="PathButton11" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(140, 70)
+position = Vector2(130, 65)
 
 [node name="PathButton12" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(210, 70)
+position = Vector2(195, 65)
 
 [node name="PathButton13" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(280, 70)
+position = Vector2(260, 65)
 
 [node name="PathButton14" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(350, 70)
+position = Vector2(325, 65)
 
 [node name="PathButton15" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(420, 70)
+position = Vector2(390, 65)
 
 [node name="PathButton16" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(490, 70)
+position = Vector2(455, 65)
 
 [node name="PathButton17" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(0, 140)
+position = Vector2(0, 130)
 
 [node name="PathButton18" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(70, 140)
+position = Vector2(65, 130)
 
 [node name="PathButton19" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(140, 140)
+position = Vector2(130, 130)
 
 [node name="PathButton20" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(210, 140)
+position = Vector2(195, 130)
 
 [node name="PathButton21" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(280, 140)
+position = Vector2(260, 130)
 
 [node name="PathButton22" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(350, 140)
+position = Vector2(325, 130)
 
 [node name="PathButton23" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(420, 140)
+position = Vector2(390, 130)
 
 [node name="PathButton24" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(490, 140)
+position = Vector2(455, 130)
 
 [node name="PathButton25" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(0, 210)
+position = Vector2(0, 195)
 
 [node name="PathButton26" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(70, 210)
+position = Vector2(65, 195)
 
 [node name="PathButton27" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(140, 210)
+position = Vector2(130, 195)
 
 [node name="PathButton28" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(210, 210)
+position = Vector2(195, 195)
 
 [node name="PathButton29" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(280, 210)
+position = Vector2(260, 195)
 
 [node name="PathButton30" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(350, 210)
+position = Vector2(325, 195)
 
 [node name="PathButton31" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(420, 210)
+position = Vector2(390, 195)
 
 [node name="PathButton32" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(490, 210)
+position = Vector2(455, 195)
 
 [node name="PathButton33" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(0, 280)
+position = Vector2(0, 260)
 
 [node name="PathButton34" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(70, 280)
+position = Vector2(65, 260)
 
 [node name="PathButton35" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(140, 280)
+position = Vector2(130, 260)
 
 [node name="PathButton36" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(210, 280)
+position = Vector2(195, 260)
 
 [node name="PathButton37" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(280, 280)
+position = Vector2(260, 260)
 
 [node name="PathButton38" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(350, 280)
+position = Vector2(325, 260)
 
 [node name="PathButton39" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(420, 280)
+position = Vector2(390, 260)
 
 [node name="PathButton40" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(490, 280)
+position = Vector2(455, 260)
 
 [node name="PathButton41" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(0, 350)
+position = Vector2(0, 325)
 
 [node name="PathButton42" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(70, 350)
+position = Vector2(65, 325)
 
 [node name="PathButton43" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(140, 350)
+position = Vector2(130, 325)
 
 [node name="PathButton44" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(210, 350)
+position = Vector2(195, 325)
 
 [node name="PathButton45" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(280, 350)
+position = Vector2(260, 325)
 
 [node name="PathButton46" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(350, 350)
+position = Vector2(325, 325)
 
 [node name="PathButton47" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(420, 350)
+position = Vector2(390, 325)
 
 [node name="PathButton48" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(490, 350)
+position = Vector2(455, 325)
 
 [node name="PathButton49" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(0, 421)
+position = Vector2(0, 390)
 
 [node name="PathButton50" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(70, 421)
+position = Vector2(65, 390)
 
 [node name="PathButton51" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(490, 420)
+position = Vector2(455, 390)
 
 [node name="PathButton52" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(420, 420)
+position = Vector2(390, 390)
 
 [node name="PathButton53" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(350, 420)
+position = Vector2(325, 390)
 
 [node name="PathButton54" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(280, 420)
+position = Vector2(260, 390)
 
 [node name="PathButton55" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(210, 421)
+position = Vector2(195, 390)
 
 [node name="PathButton56" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(140, 421)
+position = Vector2(130, 390)
 
 [node name="PathButton57" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(0, 491)
+position = Vector2(0, 455)
 
 [node name="PathButton58" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(70, 491)
+position = Vector2(65, 455)
 
 [node name="PathButton59" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(140, 491)
+position = Vector2(130, 455)
 
 [node name="PathButton60" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(210, 491)
+position = Vector2(195, 455)
 
 [node name="PathButton61" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(280, 490)
+position = Vector2(260, 455)
 
 [node name="PathButton62" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(350, 490)
+position = Vector2(325, 455)
 
 [node name="PathButton63" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(420, 490)
+position = Vector2(390, 455)
 
 [node name="PathButton64" parent="." groups=["PathButtons"] instance=ExtResource("2_qu0b2")]
-position = Vector2(490, 490)
+position = Vector2(455, 455)
 
 [node name="EndDraggingTimer" type="Timer" parent="."]
 wait_time = 0.6

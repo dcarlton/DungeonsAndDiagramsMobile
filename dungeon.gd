@@ -18,7 +18,7 @@ func _process(delta: float) -> void:
 	pass
 
 
-func _on_button_pressed(state: PathState.State, set_state: Callable):
+func _on_button_pressed(state: PathState.State, set_state: Callable, double_tapped: bool):
 	$EndDraggingTimer.stop()
 	num_pressed_buttons += 1
 	match state:
@@ -29,6 +29,10 @@ func _on_button_pressed(state: PathState.State, set_state: Callable):
 					dragging_path_state = DraggingPathState.EMPTY_TO_UNKNOWN
 				DraggingPathState.EMPTY_TO_WALL:
 					set_state.call(PathState.State.WALL)
+				DraggingPathState.WALL_TO_EMPTY:
+					# Double tapped
+					set_state.call(PathState.State.UNKNOWN)
+					dragging_path_state = DraggingPathState.WALL_TO_UNKNOWN
 		PathState.State.UNKNOWN:
 			match dragging_path_state:
 				DraggingPathState.NULL, DraggingPathState.UNKNOWN_TO_WALL:
@@ -36,6 +40,10 @@ func _on_button_pressed(state: PathState.State, set_state: Callable):
 					dragging_path_state = DraggingPathState.UNKNOWN_TO_WALL
 				DraggingPathState.UNKNOWN_TO_EMPTY:
 					set_state.call(PathState.State.EMPTY)
+				DraggingPathState.EMPTY_TO_UNKNOWN:
+					# Double tapped
+					set_state.call(PathState.State.WALL)
+					dragging_path_state = DraggingPathState.EMPTY_TO_WALL
 		PathState.State.WALL:
 			match dragging_path_state:
 				DraggingPathState.NULL, DraggingPathState.WALL_TO_EMPTY:
@@ -43,6 +51,10 @@ func _on_button_pressed(state: PathState.State, set_state: Callable):
 					dragging_path_state = DraggingPathState.WALL_TO_EMPTY
 				DraggingPathState.WALL_TO_UNKNOWN:
 					set_state.call(PathState.State.UNKNOWN)
+				DraggingPathState.UNKNOWN_TO_WALL:
+					# Double tapped
+					set_state.call(PathState.State.EMPTY)
+					dragging_path_state = DraggingPathState.UNKNOWN_TO_EMPTY
 	
 
 func _on_button_released():
